@@ -4,6 +4,32 @@ body {
     font-family: 'Red Hat Display', sans-serif;
 }
 
+.order-summary-card {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20% 5% 20% 5%;
+}
+
+.title-image {
+
+    height: 200px;
+    background-image: url("images/illustration-hero.svg");
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.title {
+
+    font-size: 24px;
+    font-weight: 900;
+    color:hsl(223, 47%, 23%)
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }

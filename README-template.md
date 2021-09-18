@@ -48,6 +48,9 @@ Finally got Git to work. First time setting up Git Repo. Still not really comfor
 11:59 AM EST:
 ![Not too shabby](./screenshots/screenshot1.png)
 
+12:30 PM EST:
+![It's getting closer](./screenshots/screenshot2.png)
+
 ### Built with
 
 - HTML5
