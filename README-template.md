@@ -37,8 +37,16 @@ Users should be able to:
 
 ## My process
 
-Saturday, September 18th, 2021  - 10:26 AM EST:
+Saturday, September 18th, 2021
+
+10:26 AM EST:
 This is my first Frontend Mentor project. I'm not quite sure what to expect and how easy or hard it will be. But let's give it a go.
+
+11:47 AM EST:
+Finally got Git to work. First time setting up Git Repo. Still not really comfortable using branches, commits, pushes aso. Started structuring the HTML now.
+
+11:59 AM EST:
+![Not too shabby](./screenshots/screenshot1.png)
 
 ### Built with
 
