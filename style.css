@@ -2,6 +2,7 @@ body {
 
     background-color: hsl(225, 100%, 94%);
     font-family: 'Red Hat Display', sans-serif;
+    margin: auto;
 }
 
 .order-summary-card {
@@ -9,10 +10,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width:375px;
     text-align: center;
     background-color: white;
     border-radius: 20px;
-    margin: 20% 5% 20% 5%;
+    margin: auto;
+    margin-top: 10%;
 }
 
 .title-image {
@@ -37,10 +40,53 @@ body {
 
     font-size: 18px;
     color:hsl(224, 23%, 55%);
-    margin-left: 15%;
-    margin-right: 15%;
-    
+    margin-left: 10%;
+    margin-right: 10%;
 }
+
+.price-container {
+
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: [first] 1fr [second] 1fr [third] 1fr;
+    align-items: center;
+    margin: 20px;
+}
+
+#music-icon {
+
+    justify-self: center;
+}
+
+.pricing-plan {
+    
+    display: grid;
+    grid-template-rows: 25px;
+    justify-self: left;
+}
+
+.plan-title {
+    
+    color:hsl(223, 47%, 23%); 
+    font-weight: 900;
+}
+
+.plan-price {
+
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+#change-button {
+
+    font-size: 14px;
+    font-weight: 700;
+    color:  hsl(245, 75%, 52%);
+    text-decoration: underline;
+}
+
+
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
