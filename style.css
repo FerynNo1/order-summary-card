@@ -10,12 +10,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width:375px;
+    max-width:350px;
     text-align: center;
     background-color: white;
     border-radius: 20px;
+    box-shadow: 0px 10px 20px 1px hsla(224, 74%, 79%, 0.726);
     margin: auto;
-    margin-top: 10%;
+    margin-top: 10vh;
 }
 
 .title-image {
@@ -86,7 +87,69 @@ body {
     text-decoration: underline;
 }
 
+#change-button:hover {
 
+    cursor: pointer;
+    color: hsl(228, 45%, 44%);
+}
 
-.attribution { font-size: 11px; text-align: center; }
+#proceed-button {
+
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 5px 20px 15px 1px hsl(228, 45%, 90%);
+}
+
+#proceed-button:hover {
+
+    cursor: pointer;
+    background-color: hsl(228, 45%, 44%);
+}
+
+#cancel-button {
+
+    font-size: 14px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+#cancel-button:hover {
+
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
+}
+
+.attribution { 
+
+    font-size: 11px; text-align: center; 
+    margin-top: 50px;
+}
+
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (min-width: 400px) {
+
+    body {
+
+        background-image: url("images/pattern-background-desktop.svg");
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
